@@ -128,12 +128,12 @@ header .menu a.active{
 
 .about-left{
     margin: 10px;
-    height: ;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    gap: 2rem;
+    gap: 1rem;
+    
 }
 .p-naz{
     background-color: #35424A;
@@ -145,37 +145,78 @@ header .menu a.active{
     color: white;
     margin: 10px;
     padding: 1rem;
+    border-radius: 10px;
 }
 
 .about-left p {
     padding: 1rem;
+    border-radius: 10px;
 }
 
 /* =====SERVICES==== */
 
 .sww{
-    padding: 2rem;
+    padding: 10px;
     display: flex;
-    
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .services-left{
     background-color: gainsboro;
     border: 2px solid #a9508b;
-    padding: 1rem;
-    margin: 0.3rem;
+    padding: 2rem;
+    margin: 0.4rem;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.form-right{
+    background-color: #35424A;
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+    height: 100%;
+    border-radius: 10px;
+    border:2px solid #e8491d;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.form-right h3{
+    padding: 1rem 0;
 
 }
+
+.form-right input{
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.form-right textarea{
+    border-radius: 5px;
+}
+
 
 label{
     display: block;
 
 }
- .form-right{
-    
- }
+
+.form-right button{
+    padding: 5px ;
+    margin: 3px 0;
+    width: 100px;
+    background-color: #e8491d;
+    color: white;
+    border-radius: 10px;
+}
+.form-right button:hover{
+    opacity: 0.8;
+    font-size: medium;
+}
+
+/* ====FOOTER=== */
+
 footer{
     position: fixed;
     bottom: 0;
