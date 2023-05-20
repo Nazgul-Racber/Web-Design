@@ -37,6 +37,7 @@ header .logo h1 span{
     color: white;
 }
 
+
 header .menu a{
     text-decoration: none;
     font-size: 1rem;
@@ -71,6 +72,9 @@ header .menu a.active{
 }
 .banner p{
     font-size: 1.1rem;
+    display: flex;
+    flex: wrap;
+    
 }
 /* subscribe */
 .subscribe{
@@ -86,7 +90,8 @@ header .menu a.active{
 }
 .subscribe .right .input{
     height: 2.2rem;
-    width: 240px;
+    width: 200px;
+    border-radius: 10px;
 }
 .subscribe .right .button{
     height: 2.2rem;
@@ -95,25 +100,68 @@ header .menu a.active{
     color: white;
     border-style:none;
     outline: none;
-    border-radius: 1px;
+    border-radius: 10px;
 }
 
 
 .msg{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    gap: 3rem;
     text-align: center;
     margin: 20px;
     padding: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     min-width: 300px
+    
+}
 
+.msg img {
+    width: 100px;
 }
 
 .msg p {
     text-align: center;
     flex-wrap: wrap;
+}
+
+/* ===ABOUT=== */
+
+.about-left{
+    margin: 10px;
+    height: ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.p-naz{
+    background-color: #35424A;
+    color: white;
+}
+
+.about-right{
+    background-color: #35424A;
+    color: white;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.about-left p {
+    padding: 1rem;
+}
+
+/* =====SERVICES==== */
+
+.sww{
+    padding: 2rem;
+    display: flex;
+    
+}
+
+.services-left{
+    border: black;
+    background-color: gainsboro;
 }
 
 footer{
@@ -124,4 +172,8 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer p{
+    font-size: small;
 }
