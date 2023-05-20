@@ -15,6 +15,8 @@ body,html{
 /* ====HOME==== */
 
 header{
+    position: sticky;
+    top: 0;
     background-color: #35424a;
     height: 5rem;
     border-bottom: 3px solid #a9508b;
@@ -97,6 +99,29 @@ header .menu a.active{
 }
 
 
-.markup{
-    
+.msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    min-width: 300px
+
+}
+
+.msg p {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #35424A;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
