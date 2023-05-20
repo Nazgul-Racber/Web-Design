@@ -157,13 +157,25 @@ header .menu a.active{
     padding: 2rem;
     display: flex;
     
+    
 }
 
 .services-left{
-    border: black;
     background-color: gainsboro;
+    border: 2px solid #a9508b;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 1rem;
+
 }
 
+label{
+    display: block;
+
+}
+ .form-right{
+    
+ }
 footer{
     position: fixed;
     bottom: 0;
