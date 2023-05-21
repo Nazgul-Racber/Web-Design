@@ -148,9 +148,9 @@ header .menu a.active{
     padding: 1rem;
     border-radius: 10px;
 }
-.about-left h3{
+.h3-naz{
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #35424A;
 }
 
